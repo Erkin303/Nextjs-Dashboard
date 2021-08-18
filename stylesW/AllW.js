@@ -10,6 +10,7 @@ overflow-x: hidden !important;
         position: sticky !important;
         top: 10px;
         right: 10px;
+        border-radius: 10px;
         ul{
             display: flex;
             list-style-type: none;
@@ -41,6 +42,7 @@ overflow-x: hidden !important;
         margin: 10px;
         min-height: 100vh;
         background-color: #0a0a40;
+        border-radius: 10px;
         .uls{
             margin: 10px;
             ul{
@@ -78,10 +80,6 @@ overflow-x: hidden !important;
         .head{
         flex: 1;
         margin: 10px;
-    }
-    .homemain{
-        width: 800px !important;
-        background-color: #0a0a40;
     }
 }
 

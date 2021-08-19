@@ -1,6 +1,6 @@
 import React from 'react'
 
-const word404 = () => {
+const Word404 = () => {
     return (
         <div>
             <h1 className="text-center">Page 404</h1>
@@ -10,4 +10,4 @@ const word404 = () => {
     )
 }
 
-export default word404
+export default Word404

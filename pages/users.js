@@ -5,7 +5,7 @@ import { setUsers } from '../redux/actions';
 import PagesW from './../stylesW/pagesW'
 
 
-const users = () => {
+const Users = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -43,4 +43,4 @@ const users = () => {
     )
 }
 
-export default users
+export default Users

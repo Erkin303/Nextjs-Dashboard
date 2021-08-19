@@ -1,5 +1,6 @@
 const initialState={
-    users:[]
+    users:[],
+    isHide:true
 };
 
 export default initialState

@@ -22,9 +22,11 @@ const all = ({children}) => {
            <div className='dh'>
            <div className='dashboard'>
                <div className='uls'>
+                   <h2 className='text-center text-light'>Dashboards</h2>
                    <ul>
                        <li><Link href="/"><div className='links'><AiOutlineHome/> Home</div></Link></li>
                        <li> <Link href="/users"><div className='links'><FiUsers/> Users</div></Link></li>
+                        <li> <Link href="/todos"><div className='links'><FiUsers/> Todos</div></Link></li>
                        <li><Link href="/photo"><div className='links'><HiOutlinePhotograph/> Photo</div></Link></li>
                        <li><Link href="/info"><div className='links'><BsInfoSquare/> Info</div></Link></li>
                 </ul>

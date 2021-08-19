@@ -5,7 +5,7 @@ import PagesW from './../stylesW/pagesW'
 const todos = () => {
     return (
         <PagesW>
-            <h1  className='text-center p-1 mb-3 mt-3'>Todos 👇</h1>
+            <h1  className='text-center p-1 mb-3 mt-3'>Todos</h1>
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className='p-2 photocard'>

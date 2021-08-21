@@ -147,13 +147,7 @@ overflow-x: hidden !important;
             color: #AEAEAE;
 
         }
-        .plastik_card{
-            background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
-            border-radius: 26px;
-            width :320.43px;
-            height :206.17px;
-        }
-        
+       
         .olchamlar{
             min-width: 150px;
         }   
@@ -245,7 +239,7 @@ overflow-x: hidden !important;
    
 }
 
-.card_shadow{
+        .card_shadow{
             box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
             border-radius: 28px;
             margin: 5px;
@@ -316,9 +310,7 @@ overflow-x: hidden !important;
             }
 
             .plastik_card{
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
+               
 
 
 
@@ -354,6 +346,17 @@ overflow-x: hidden !important;
             }
             
         }
-
+        .plastik_card{
+            background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
+            border-radius: 26px;
+            width :300px;
+            height :206.17px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .bigSwiper{
+            width: 350px !important;
+        }
 `;
 export default Allw

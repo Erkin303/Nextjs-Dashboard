@@ -4,7 +4,7 @@ import PagesW from '../stylesW/pagesW'
 
 
 const Cards = () => {
-    const cards = useSelector(state => state.cards)
+    const cards = useSelector(state => state.cards);
     return (
         <PagesW>
             <h1  className='text-center p-1 mt-3'>Card owners</h1>

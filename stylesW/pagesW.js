@@ -137,6 +137,8 @@ const PagesW=styled.div`
                 display: flex;
                 justify-content: space-between;
                 flex-direction: column;
+                width: 320px;
+                padding-right: 10px;
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import PagesW from './../stylesW/pagesW'
+import PagesW from '../stylesW/pagesW'
 
 const photo = () => {
     return (

@@ -164,8 +164,11 @@ overflow-x: hidden !important;
     }
     .photocard{
         padding: 10px;
+        color: white;
         border-radius: 10px;
-        box-shadow: 1px 5px 5px  gray;
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+        background-image: linear-gradient(to right top, #0d2a57, #1d366b, #2e427f, #3e4e93, #505ba8);        border-radius: 10px;
+
         &:hover{
             box-shadow: 2px 7px 7px  gray;
         }

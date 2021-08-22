@@ -17,7 +17,7 @@ const Transactions = () => {
 
     return (
         <PagesW>
-            <h1 className="text-center p-3 mt-3">Hi Users</h1>
+            <h1 className="text-center p-3 mt-3">Hi Transaction owners</h1>
             <h3 className="text-center p-3 mb-3">That's your informations !</h3>
             <p className="text-center ms-4 me-4">Dolor sit amet consectetur adipisicing elit. Non eum vitae veritatis distinctio ducimus minima voluptates reprehenderit facilis, saepe, dolorem dolor iure totam quae. Ipsum facilis vero quaerat iure blanditiis.</p>
             <div className="container">

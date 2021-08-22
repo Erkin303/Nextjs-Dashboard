@@ -14,26 +14,31 @@ const Cards = () => {
                            {cards.map((v,i)=>{
                                return  <div className="col-lg-4 col-md-6 col-sm-12 p-1" key={i}>
                                    <div className='plastik_card m-2'>
-                               <div className='m-4'>
-                               <div className='pb-3'>
-                                   <p className='cloudcash'>cloudcash</p>
-                               <p className='cloudcashsm'>PREMIUM ACCOUNT</p>
-                               </div>
-
-                               <p className='card_codes'>{v.number1} <span>****</span> <span>****</span> {v.number2} </p>
-
-                               <div className='d-flex justify-content-between mt-2'>
-                                  <div>
-                                      <p className='cloudcashsm mb-0 pb-0 mt-3'>Card holder</p>
-                                      <p className='cloudcashmd'>{v.card_owner}</p>
-                                  </div>
-                                  <div>
-                                      <p className='cloudcashsm mb-0 pb-0 mt-3'>Expire date</p>
-                                      <p className='cloudcashmd'>{v.date}</p>
-                                  </div>
-                               </div>
-                               </div>
-                           </div>
+                                                <div className='m-4'>
+                                                <div className='d-flex justify-content-between'>
+                                                    <div className='p'>
+                                                    <p className='cloudcash'>cloudcash</p>
+                                                    <p className='cloudcashsm'>PREMIUM ACCOUNT</p>
+                                                </div>
+                                                <p><img className='masterCard' src="https://www.mastercard.ru/content/dam/mccom/global/logos/logo-mastercard-mobile.svg" alt="" /></p>
+                                                </div>
+                                                <div className='simCard'>
+                                                    <img  className='simCard' src="https://previews.123rf.com/images/miceking/miceking1603/miceking160300029/53109625-chip-of-credit-card-sim-card-chip.jpg" alt="" />
+                                                </div>
+                                                <p className='card_codes'>{v.number1} <span>****</span> <span>****</span> {v.number2}</p>
+                 
+                                                <div className='d-flex justify-content-between mt-2'>
+                                                   <div>
+                                                       <p className='cloudcashsm mb-0 pb-0 mt-2'>Card holder</p>
+                                                       <p className='cloudcashmd'>{v.card_owner}</p>
+                                                   </div>
+                                                   <div>
+                                                       <p className='cloudcashsm mb-0 pb-0 mt-2'>Expire date</p>
+                                                       <p className='cloudcashmd'>{v.date}</p>
+                                                   </div>
+                                                </div>
+                                                </div>
+                                                  </div>
                                </div>
                            })}
             </div>

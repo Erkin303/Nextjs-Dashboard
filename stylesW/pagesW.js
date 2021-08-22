@@ -259,6 +259,23 @@ const PagesW=styled.div`
         
 
         
-    
+    .masterCard{
+        width: 80px;
+        height: 40px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+    }
+    .simCard{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        border-radius: 7px;
+    }
+    .card_codes {
+        margin-top: 0 !important;
+    }
 `;
 export default PagesW

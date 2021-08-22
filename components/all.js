@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './head'
 import Footer from './foot'
 import Allw from '../stylesW/AllW'
 import Link from 'next/link'
@@ -36,21 +35,23 @@ const all = ({children}) => {
 
            <div className='dashboard'>
                <div className='uls'>
-                   <h2 className='text-center text-light'>Dashboards</h2>
-                   <div><img src="./../public/Vector.png" alt="" /><span className='text-light text-center'>cloudcash</span></div>
+                   <p className='dashboardWord'>Dashboards</p>
+                   <div className='cloudCash'><img src="./Vector.png" alt="" /><span className='cc ms-1'>cloudcash</span></div>
+                   <div className='sideBar'>
                    <ul>
                        {links.map((v,i)=>{
                            return  <li key={i}><Link href={`/${v.href}`}><div className='links'><div className='icons'>
-                               {v.icons}</div>{v.components}</div></Link></li>
+                               {v.icons}</div><span className='components'>{v.components}</span></div></Link></li>
                        })}
                     </ul>
+                   </div>
                 </div> 
                 <div className='bbtn'>
-                    <p>Give your money
+                    <p className='giveY'>Give your money
                         awesome space in cloud
                     </p>
                     <div className='d-flex justify-content-center'>
-                        <button className='btn btn-warning'>Upgrade to premium <AiOutlineArrowUp/></button>
+                        <button className='btn btn-warning m-1'><span className='buttonUchun'>Upgrade to premium</span> <AiOutlineArrowUp/></button>
 
                     </div>
                 </div>  
@@ -58,7 +59,6 @@ const all = ({children}) => {
 
             {/* head qismi */}
                 <div className='head'>
-                <Header></Header>
                 {children}
                 </div>
             </div>

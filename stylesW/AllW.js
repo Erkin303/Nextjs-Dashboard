@@ -47,8 +47,9 @@ overflow-x: hidden !important;
             left: 10px !important;
             margin: 10px;
             height: 100%;
-            max-height: 100vh;
-            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             background-image: linear-gradient(to right top, #0d2a57, #1d366b, #2e427f, #3e4e93, #505ba8);        border-radius: 10px;
         .bbtn{
             p{
@@ -96,7 +97,7 @@ overflow-x: hidden !important;
         flex: 1;
         margin: 10px;
         width: 100%;
-    }
+        }
     .header_bottom{
         height: 100%;
     }
@@ -206,7 +207,7 @@ overflow-x: hidden !important;
         background: linear-gradient(270deg, #FCAE73 0%, #F79042 99.18%);
     }
     .big_width{
-        width: 350px;
+        width: 340px;
         background: #F1F1F1;
         margin: 5px 5px 0 5px;
         border-radius:30px;
@@ -239,40 +240,40 @@ overflow-x: hidden !important;
    
 }
 
-        .card_shadow{
-            box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-            border-radius: 28px;
-            margin: 5px;
-            padding:10px;
+    .card_shadow{
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+        border-radius: 28px;
+        margin: 5px 5px 20px 5px;
+        padding:11px;
           table{
-              width: 100%;
               padding: 10px;
+              width:100%;
             th{
                 font-size: 14px  !important;
-                    line-height: 17px;
-                    color: #AEAEAE !important;
+                line-height: 17px;
+                color: #AEAEAE !important;
             }
             td{
                 font-size: 14px;
-                    line-height: 17px;
-                    color: #AEAEAE ;
-                    padding: 7px 0;
+                line-height: 17px;
+                color: #AEAEAE ;
+                padding: 7px 0;
             }
 
           }
           .dollarright{
             font-weight: 600;
-                font-size: 23.9789px;
-                line-height: 29px;
-                margin-bottom: 0;
-                color: #696969;
+            font-size: 23.9789px;
+            line-height: 29px;
+            margin-bottom: 0;
+            color: #696969;
           }
           .mountain{
             font-size: 20px;
             margin-bottom: 0;
           }
             .dollars{
-                margin: 0 15px;
+                margin: 0 15px 0 0;
                 padding: 15px;
                 border-left: 1px solid gray;
 
@@ -280,9 +281,10 @@ overflow-x: hidden !important;
                 font-size: 24px;
                 line-height: 22px;
                 color: #197BBD;
-                    margin-bottom: 0;
-                    padding-bottom: 0;
-                    }
+                margin-bottom: 0;
+                padding-bottom: 0;
+                }
+                
                 .bldsm{
                     font-weight: normal;
                     font-size: 14px  !important;
@@ -310,16 +312,13 @@ overflow-x: hidden !important;
             }
 
             .plastik_card{
-               
-
-
-
                 .cloudcash{
                 font-weight: bold;
                 font-size: 16.7475px;
                 line-height: 21px;
                 color: white;
                 margin-bottom:0;
+                margin-right: 15px;
             }
             .cloudcashsm{
                 font-weight: bold;
@@ -349,7 +348,7 @@ overflow-x: hidden !important;
         .plastik_card{
             background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
             border-radius: 26px;
-            width :300px;
+            width :340px;
             height :206.17px;
             display: flex;
             justify-content: space-between;
@@ -358,5 +357,163 @@ overflow-x: hidden !important;
         .bigSwiper{
             width: 350px !important;
         }
+    .sawiperSlide{
+        width: 400px !important;
+    }
+    .asosiyChaptaraf{
+        display:flex;
+    }
+    .HTE{
+        display:flex;
+    }
+    .dashboardWord{
+        color: white;
+        text-align:center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .cloudCash{
+        text-align:center;
+    }
+    .cc{
+        max-lines: 7px;
+        color:white;
+    }
+    .giveY{
+        color:white;
+        font-size: 13px;
+    }
+    .head{
+        padding-right:1px;
+    }
+
+    @media screen and (max-width:1200px){
+        .asosiyChaptaraf{
+        display:block !important;
+        }
+        .dollars{
+            margin: 25px 0 !important;
+            padding: 15px !important;
+            border-left: none !important;
+        }
+        .card_shadow{
+        max-width: 400px !important;
+        /* min-width: 400px !important; */
+        }
+        .HTE{
+        display:block;
+        }
+        .dashboardWord{
+        color: white;
+        text-align:center;
+        font-size: 15px;
+        font-weight: 500;
+        }
+        .cloudCash{
+        text-align:center;
+        font-size: 14px;
+        }
+        .cc{
+        display: block;
+        }
+        .components{
+            display: none;
+        }
+        .icons{
+            margin: 0;
+            padding: 0;
+        }
+        .dashboard{
+            margin-right: 0;
+            width: 100px !important;
+            transition: 0.3s;
+            ul{
+                display: block;
+                li{
+                    .links{
+                        padding: 3px;
+                        margin: 5px;
+                        .icons{
+                            font-size: 17px;
+                            margin: 5px;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .giveY{
+        display: none;
+        }
+        .buttonUchun{
+            display: none;
+        }
+        .big_width{
+        width: 300px;
+        background: #F1F1F1;
+        margin: 5px 5px 0 5px;
+        border-radius:30px;
+        }
+        
+
+    }
+    @media screen and (max-width:560px){
+        .dh{
+            display: block;
+        }
+        .head{
+        flex: 0;
+        margin: 10px;
+        width: 100%;
+        padding-right: 0 ;
+        margin-right: 0;
+        }
+        .dashboard{
+            width: 95% !important;
+            .uls{
+                ul{
+                    margin: 0 auto;
+                    display: flex;
+                    li{
+                        margin:5px !important;
+                    .links{
+                        padding: 1px !important;
+                        margin: 2px !important;
+                        .icons{
+                            font-size: 17px;
+                            margin: 1px !important;
+                            padding: 5px !important;
+                        }
+                    }
+                }
+                }
+            }
+            .dashboardWord{
+                display: none;
+            }
+          
+        }
+        .plastik_card{
+            background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
+            border-radius: 26px;
+            width :300px;
+            height :190.17px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-right: 5px;
+        }
+        .sideBar{
+            display: flex;
+            justify-content: center;
+        }
+        .big_width{
+        width: 300px;
+        background: #F1F1F1;
+        margin: 5px 5px 0 5px;
+        border-radius:30px;
+        }
+    }
+
 `;
 export default Allw

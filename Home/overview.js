@@ -45,17 +45,20 @@ const Overview = () => {
                 
                     
                         <div className="row w-100">
-                              <div className="col-lg-6 col-sm-12">
+                              <div className="col-lg-5 col-sm-12">
                                   <div className='card_shadow'>
                                       <p className='fs-3'>Cards</p>
-                                      <div className='d-flex'>
-                                        <Swiper navigation={true} onSlideChange={(e)=>{setActivei(e.activeIndex)}} >
+                                      <div className='asosiyChaptaraf'>
+                                        <Swiper navigation={true} onSlideChange={(e)=>{setActivei(e.activeIndex)}}>
                                            {cards.map((v,i)=>{
-                                                return <SwiperSlide > <div className='plastik_card' key={i}>
+                                                return <SwiperSlide key={i} > <div className='plastik_card'>
                                                 <div className='m-4'>
-                                                <div className='pb-3'>
+                                                <div className='d-flex justify-content-between'>
+                                                    <div className='pb-3'>
                                                     <p className='cloudcash'>cloudcash</p>
                                                 <p className='cloudcashsm'>PREMIUM ACCOUNT</p>
+                                                </div>
+                                                <p>logo</p>
                                                 </div>
                  
                                                 <p className='card_codes'>{v.number1} <span>****</span> <span>****</span> {v.number2}</p>
@@ -107,26 +110,32 @@ const Overview = () => {
                                               <tr>
                                                   <td> <span className='text-dark'>Tesco Market</span></td>
                                                   <td>Shopping</td>
-                                                  <td>13 Dec 2020 </td>
-                                                  <td><span className='text-dark'>$ 75.67</span></td>
+                                                  <td>18 Nov 2020 </td>
+                                                  <td><span className='text-dark'>{cards[card].table1}</span></td>
                                               </tr>
                                               <tr>
                                                   <td> <span className='text-dark'>Tesco Market</span></td>
                                                   <td>Shopping</td>
-                                                  <td>13 Dec 2020 </td>
-                                                  <td><span className='text-dark'>$ 75.67</span></td>
+                                                  <td>03 Mar 2020 </td>
+                                                  <td><span className='text-dark'>{cards[card].table2}</span></td>
                                               </tr>
                                               <tr>
                                                   <td> <span className='text-dark'>Tesco Market</span></td>
                                                   <td>Shopping</td>
-                                                  <td>13 Dec 2020 </td>
-                                                  <td><span className='text-dark'>$ 75.67</span></td>
+                                                  <td>25 Apr 2020 </td>
+                                                  <td><span className='text-dark'>{cards[card].table3}</span></td>
                                               </tr>
                                                <tr>
                                                   <td> <span className='text-dark'>Tesco Market</span></td>
                                                   <td>Shopping</td>
-                                                  <td>13 Dec 2020 </td>
-                                                  <td><span className='text-dark'>$ 75.67</span></td>
+                                                  <td>09 Jan 2020 </td>
+                                                  <td><span className='text-dark'>{cards[card].table4}</span></td>
+                                              </tr>
+                                              <tr>
+                                                  <td> <span className='text-dark'>Tesco Market</span></td>
+                                                  <td>Shopping</td>
+                                                  <td>31 Dec 2020 </td>
+                                                  <td><span className='text-dark'>{cards[card].table5}</span></td>
                                               </tr>
                                           </tbody>
                                       </table>
@@ -135,8 +144,8 @@ const Overview = () => {
            
                               </div>
            
-                              <div  className="col-lg-6 col-sm-12">
-                                  <div className='d-flex p-1 w-100'>
+                              <div  className="col-lg-7 col-sm-12">
+                                  <div className='HTE p-1'>
                                       <div  className='card_shadow olchamlar'>
                                           <p className='dollarright'>{cards[card].holidays}</p>
                                           <p className='bldsm'>{cards[card].date2}</p>

@@ -511,7 +511,7 @@ overflow-x: hidden !important;
             background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
             border-radius: 26px;
             width :300px;
-            height :190.17px;
+            height :207.17px;
             display: flex;
             justify-content: space-between;
             flex-direction: column;

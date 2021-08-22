@@ -12,7 +12,7 @@ const Cards = () => {
 
             <div className="row mt-3">
                            {cards.map((v,i)=>{
-                               return  <div className="col-lg-4 col-md-6 col-sm-12 p-1" key={i}>
+                               return  <div className="col-lg-4 col-md-6 col-sm-12 p-1 d-flex justify-content-center" key={i}>
                                    <div className='plastik_card m-2'>
                                                 <div className='m-4'>
                                                 <div className='d-flex justify-content-between'>

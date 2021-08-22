@@ -51,8 +51,7 @@ const all = ({children}) => {
                         awesome space in cloud
                     </p>
                     <div className='d-flex justify-content-center'>
-                        <button className='btn btn-warning m-1'><span className='buttonUchun'>Upgrade to premium</span> <AiOutlineArrowUp/></button>
-
+                        <Link href='/upgrade'><button className='btn btn-warning m-1'><span className='buttonUchun'>Upgrade to premium</span> <AiOutlineArrowUp/></button></Link>
                     </div>
                 </div>  
            </div>

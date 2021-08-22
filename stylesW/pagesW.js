@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const PagesW=styled.div`
 
-
     .photocard{
         padding: 10px;
         border-radius: 10px;
@@ -16,12 +15,6 @@ const PagesW=styled.div`
     }
     .plastik_card{
         transition: 0.3s;
-        background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
-                 border-radius: 26px;
-                 box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.56);
                  &:hover{
                     box-shadow: 0 14px 16px rgba(0, 0, 0, 0.56);
                  }
@@ -134,14 +127,7 @@ const PagesW=styled.div`
             }
 
             .plastik_card{
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
-                width: 320px;
-                padding-right: 10px;
-
-
-
+            
                 .cloudcash{
                 font-weight: bold;
                 font-size: 16.7475px;
@@ -277,5 +263,52 @@ const PagesW=styled.div`
     .card_codes {
         margin-top: 0 !important;
     }
+    .bg2{
+        background: rgb(217,249,248);
+        background: radial-gradient(circle, rgba(217,249,248,1) 0%, rgba(80,124,199,1) 100%);
+        border-radius: 10px;
+        padding: 22px 0;
+    }
+    
+    @media screen and (max-width:560px){
+        .bg2{
+           margin-right: 10px !important;
+        }
+    }
+
+    .plastik_card{
+        border-radius: 26px;
+        width :100% !important;
+        height :207.17px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-right: 5px;
+    }
+    .plastik_card1{
+        background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
+    }
+    .plastik_card2{
+        background-image: linear-gradient(to bottom, #046225, #07802c, #14a031, #26c033, #3be133);
+    }
+    .plastik_card3{
+        background-image: linear-gradient(to bottom, #4e550a, #6b780e, #879d13, #a4c419, #c0ed21);
+    }
+    .plastik_card4{
+        background-image: linear-gradient(to bottom, #550a0a, #761315, #981c1e, #bc2627, #e13030);
+    }
+    .plastik_card5{
+        background-image: linear-gradient(to bottom, #550a45, #781067, #9b188c, #be22b5, #e130e1);
+    }
+      .plastik_card6{
+        background-image: linear-gradient(to bottom, #0a5555, #127174, #1a8e96, #24abba, #30cae1);
+    }
+      .plastik_card7{
+        background-image: linear-gradient(to bottom, #000000, #1a191a, #2c2b2e, #3c3f43, #4c5459);
+    }
+    .plastik_card8{
+        background-image: linear-gradient(to bottom, #59284a, #68335a, #773e6b, #87497c, #96558e);
+    }
+
 `;
 export default PagesW

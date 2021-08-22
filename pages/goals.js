@@ -10,12 +10,12 @@ import PagesW from '../stylesW/pagesW'
 const info = () => {
     return (
         <PagesW>
-        <h1 className='text-center p-1 mb-3 mt-3'>Photo</h1>
+        <h1 className='text-center p-1 mb-3 mt-3'>Goals</h1>
         <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
                <div className='p-2 photocard'>
                <div>
-                    <p className='text-center fs-3 text-primary'>Photos 1</p>
+                    <p className='text-center fs-3 text-light'>Goals 1</p>
                     <p className='text-center fs-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem alias quia soluta architecto distinctio nostrum enim omnis in amet magnam earum,
                      accusantium a exercitationem quibusdam natus illo. Sunt, officiis numquam!</p>
                 </div>
@@ -28,7 +28,7 @@ const info = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
             <div className='p-2 photocard'>
                <div>
-                    <p className='text-center fs-3 text-primary'>Photos 1</p>
+                    <p className='text-center fs-3 text-light'>Goals 2</p>
                     <p className='text-center fs-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem alias quia soluta architecto distinctio nostrum enim omnis in amet magnam earum,
                      accusantium a exercitationem quibusdam natus illo. Sunt, officiis numquam!</p>
                 </div>
@@ -41,7 +41,7 @@ const info = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
             <div className='p-2 photocard'>
                <div>
-                    <p className='text-center fs-3 text-primary'>Photos 1</p>
+                    <p className='text-center fs-3 text-light'>Goals 2</p>
                     <p className='text-center fs-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem alias quia soluta architecto distinctio nostrum enim omnis in amet magnam earum,
                      accusantium a exercitationem quibusdam natus illo. Sunt, officiis numquam!</p>
                 </div>

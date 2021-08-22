@@ -51,7 +51,7 @@ const Overview = () => {
                                       <div className='asosiyChaptaraf'>
                                         <Swiper navigation={true} onSlideChange={(e)=>{setActivei(e.activeIndex)}}>
                                            {cards.map((v,i)=>{
-                                                return <SwiperSlide key={i} > <div className='plastik_card'>
+                                                return <SwiperSlide key={i} > <div className={`plastik_card ${v.classColor}`}>
                                                 <div className='m-4'>
                                                 <div className='d-flex justify-content-between'>
                                                     <div className='p'>

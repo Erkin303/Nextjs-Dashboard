@@ -244,7 +244,7 @@ overflow-x: hidden !important;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
         border-radius: 28px;
         margin: 5px 5px 20px 5px;
-        padding:11px;
+        padding:10px 12px 10px 10px;
           table{
               padding: 10px;
               width:100%;
@@ -331,7 +331,7 @@ overflow-x: hidden !important;
                 font-size: 21.4918px;
                 line-height: 27px;
                 color: #FFFFFF;
-                margin-top: 15px;
+                margin-top: 1px;
 
             }
             .cloudcashmd{
@@ -386,16 +386,27 @@ overflow-x: hidden !important;
     .head{
         padding-right:1px;
     }
+    .masterCard{
+        width: 80px;
+        height: 40px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+    }
+    .simCard{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        border-radius: 7px;
+    }
 
     @media screen and (max-width:1200px){
         .asosiyChaptaraf{
         display:block !important;
         }
-        .dollars{
-            margin: 25px 0 !important;
-            padding: 15px !important;
-            border-left: none !important;
-        }
+       
         .card_shadow{
         max-width: 400px !important;
         /* min-width: 400px !important; */
@@ -508,10 +519,21 @@ overflow-x: hidden !important;
             justify-content: center;
         }
         .big_width{
-        width: 300px;
+        width: 250px !important;
         background: #F1F1F1;
         margin: 5px 5px 0 5px;
         border-radius:30px;
+        }
+    }
+
+    @media screen and (max-width:1300px){
+        .dollars{
+            margin: 25px 0 !important;
+            padding: 15px !important;
+            border-left: none !important;
+        }
+        .asosiyChaptaraf{
+        display:block !important;
         }
     }
 

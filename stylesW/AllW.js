@@ -510,7 +510,7 @@ overflow-x: hidden !important;
         .plastik_card{
             background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
             border-radius: 26px;
-            width :300px;
+            width :100% !important;
             height :207.17px;
             display: flex;
             justify-content: space-between;
@@ -537,6 +537,9 @@ overflow-x: hidden !important;
         }
         .asosiyChaptaraf{
         display:block !important;
+        }
+        .plastik_card{
+            width :100% !important;
         }
     }
 

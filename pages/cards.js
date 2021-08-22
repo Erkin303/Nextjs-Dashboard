@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import PagesW from '../stylesW/pagesW'
+import Image from 'next/image'
 
 
 const Cards = () => {

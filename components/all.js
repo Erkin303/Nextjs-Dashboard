@@ -27,10 +27,10 @@ const links=[
 
 
 
-const all = ({children}) => {
+const All = ({children}) => {
 
     const [isShow, setIsShow] = useState(true);
-    
+
     const Changing=()=>{
         setIsShow(!isShow);
     }
@@ -76,4 +76,4 @@ const all = ({children}) => {
     )
 }
 
-export default all
+export default All

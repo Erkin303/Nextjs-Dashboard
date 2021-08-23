@@ -1,6 +1,7 @@
 const initialState={
     users:[],
     isHide:true,
+    isShow: true,
     cards:[
         {number1:5877, number2:5421, card_owner:'Mike Smith',date:"11/22", date2:"12/12/2024",current_balance:"$2850.75",income:"$5940",outcome:"$350",holidays:"$140",renovation:"$680",xbox:"$120",shoping:"78%",electronics:"48%",travel:"89%",table1:"$78.5",table2:"$201.0",table3:"$89.5",table4:"$78.5",table5:"$86.5",classColor:"plastik_card1"},
 
@@ -18,7 +19,7 @@ const initialState={
         
         {number1:1232, number2:1212, card_owner:'Abdulaziz Sulaymonov',date:"30/24", date2:"29/12/2024",current_balance:"$4550.75",income:"$3010",outcome:"$620",holidays:"$320",renovation:"$280",xbox:"$170",shoping:"92%",electronics:"49%",travel:"51%",table1:"$78.5",table2:"$78.5",table3:"$78.5",table4:"$78.5",table5:"$78.5",classColor:"plastik_card8"}
 
-    ],
+    ]
     
 
 };

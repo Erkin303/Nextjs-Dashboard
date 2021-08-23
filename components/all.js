@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from './foot'
 import Allw from '../stylesW/AllW'
 import Link from 'next/link'
@@ -10,9 +10,7 @@ import { GrDocument } from "react-icons/gr";
 import { GiSportMedal } from "react-icons/gi";
 
 
-
-
-import Vector from './../public/Vector.png'
+import { useSelector } from 'react-redux';
 
 
 
@@ -29,19 +27,26 @@ const links=[
 
 
 const all = ({children}) => {
+
+    const [isShow, setIsShow] = useState(true);
+    const changing=()=>{
+        setIsShow(!isShow);
+    }
+
     return (
         <Allw>
            <div className='dh'>
 
-           <div className='dashboard'>
+           <div className={isShow && "dashboard" || "dashboard3 w-100"}>
                <div className='uls'>
                    <p className='dashboardWord'>Dashboards</p>
                    <div className='cloudCash'><img src="./Vector.png" alt="" /><span className='cc ms-1'>cloudcash</span></div>
                    <div className='sideBar'>
                    <ul>
+                       <li className='d-flex justify-content-center'><button className='btn btn-light' onClick={()=>changing()}>sm</button></li>
                        {links.map((v,i)=>{
                            return  <li key={i}><Link href={`/${v.href}`}><div className='links'><div className='icons'>
-                               {v.icons}</div><span className='components'>{v.components}</span></div></Link></li>
+                               {v.icons}</div><span className={isShow && "components" || "d-none"}>{v.components}</span></div></Link></li>
                        })}
                     </ul>
                    </div>

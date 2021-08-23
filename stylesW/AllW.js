@@ -39,7 +39,61 @@ overflow-x: hidden !important;
     .dh{
         display: flex;
         height: 100%;
-        
+        .dashboard3{
+            transition: 0.3s;
+            width: 250px;
+            transition: 0.3s;
+            position: sticky !important;
+            top: 10px !important;
+            left: 10px !important;
+            margin: 10px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-image: linear-gradient(to right top, #0d2a57, #1d366b, #2e427f, #3e4e93, #505ba8);        border-radius: 10px;
+        .bbtn{
+            p{
+                padding: 10px;
+                margin: 0 10px;
+                text-align: center;
+                color: white;
+            }
+        }
+        .uls{
+            margin: 10px;
+            ul{
+                margin: 0 0 0 0 !important;
+                padding: 0 0 0 0 ;
+                list-style-type: none;
+                li{
+                    margin: 10px;
+                        .links{
+                            transition: 0.3s;
+                            width: 100%;
+                            padding: 7px 5px;
+                            margin: 15px 0;
+                            background-color: rgba(255, 255, 255, 0.575);
+                            border-radius: 5px;
+                            display: flex;
+                            align-items: center;
+                                &:hover{
+                                    box-shadow: 2px 5px 6px 0  #0C254C !important;
+                                }
+                                .icons{
+                                    font-size: 17px;
+                                    margin: 5px;
+                                    padding: 0 10px;
+                                    font-weight: bold;
+                                }
+                        }
+                    
+
+                }
+            }
+        }
+        }
+
         .dashboard{
             width: 250px;
             position: sticky !important;
@@ -447,6 +501,25 @@ overflow-x: hidden !important;
                 }
             }
         }
+        .dashboard3{
+            margin-right: 0;
+            width: 100px !important;
+            transition: 0.3s;
+            ul{
+                display: block;
+                li{
+                    .links{
+                        padding: 3px;
+                        margin: 5px;
+                        .icons{
+                            font-size: 17px;
+                            margin: 5px;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
         .giveY{
         display: none;
         }
@@ -472,6 +545,18 @@ overflow-x: hidden !important;
         width: 100%;
         padding-right: 0 ;
         margin-right: 0;
+        }
+        .dashboard3{
+            width: 100% !important;
+            .uls{
+                ul{
+                   display: none;
+                }
+            }
+            .dashboardWord{
+                display: none;
+            }
+          
         }
         .dashboard{
             width: 95% !important;
@@ -557,7 +642,112 @@ overflow-x: hidden !important;
     .plastik_card8{
         background-image: linear-gradient(to bottom, #59284a, #68335a, #773e6b, #87497c, #96558e);
     }
+    .dashboard3{
+            margin-right: 0;
+            width: 100px !important;
+            transition: 0.3s;
+            margin: 10px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-image: linear-gradient(to right top, #0d2a57, #1d366b, #2e427f, #3e4e93, #505ba8);
+            border-radius: 10px;
+            ul{
+                margin: 0 0 0 0 !important;
+                padding: 0 0 0 0 ;
+                list-style-type: none;
+                li{
+                    margin: 10px;
+                        .links{
+                            transition: 0.3s;
+                            width: 100%;
+                            padding: 7px 5px;
+                            margin: 15px 0;
+                            background-color: rgba(255, 255, 255, 0.575);
+                            border-radius: 5px;
+                            display: flex;
+                            align-items: center;
+                                &:hover{
+                                    box-shadow: 2px 5px 6px 0  #0C254C !important;
+                                }
+                                .icons{
+                                    font-size: 17px;
+                                    margin: 5px;
+                                    padding: 0 10px;
+                                    font-weight: bold;
+                                }
+                        }
+                    
 
+                }
+            }
+    
 
+        .asosiyChaptaraf{
+        display:block !important;
+        }
+       
+        .card_shadow{
+        max-width: 400px !important;
+        /* min-width: 400px !important; */
+        }
+        .HTE{
+        display:block;
+        }
+        .dashboardWord{
+        color: white;
+        text-align:center;
+        font-size: 15px;
+        font-weight: 500;
+        }
+        .cloudCash{
+        text-align:center;
+        font-size: 14px;
+        }
+        .cc{
+        display: block;
+        }
+        .components{
+            display: none;
+        }
+        .icons{
+            margin: 0;
+            padding: 0;
+        }
+        .dashboard{
+            margin-right: 0;
+            width: 100px !important;
+            transition: 0.3s;
+            ul{
+                display: block;
+                li{
+                    .links{
+                        padding: 3px;
+                        margin: 5px;
+                        .icons{
+                            font-size: 17px;
+                            margin: 5px;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .giveY{
+        display: none;
+        }
+        .buttonUchun{
+            display: none;
+        }
+        .big_width{
+        width: 300px;
+        background: #F1F1F1;
+        margin: 5px 5px 0 5px;
+        border-radius:30px;
+        }
+    }
+
+  
 `;
 export default Allw

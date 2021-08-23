@@ -29,6 +29,7 @@ const data2=[
 
 const Overview = () => {
     const cards = useSelector(state => state.cards);
+
     const [activei, setActivei] = useState(0);
     const card=activei;
     console.log(activei);

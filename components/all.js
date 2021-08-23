@@ -11,6 +11,7 @@ import { GiSportMedal } from "react-icons/gi";
 
 
 import { useSelector } from 'react-redux';
+import { Slide } from 'react-awesome-reveal';
 
 
 
@@ -29,7 +30,8 @@ const links=[
 const all = ({children}) => {
 
     const [isShow, setIsShow] = useState(true);
-    const changing=()=>{
+    
+    const Changing=()=>{
         setIsShow(!isShow);
     }
 
@@ -43,10 +45,10 @@ const all = ({children}) => {
                    <div className='cloudCash'><img src="./Vector.png" alt="" /><span className='cc ms-1'>cloudcash</span></div>
                    <div className='sideBar'>
                    <ul>
-                       <li className='d-flex justify-content-center'><button className='btn btn-light' onClick={()=>changing()}>sm</button></li>
+                       <li className='d-flex justify-content-center'><button className='btn btn-light' onClick={()=>Changing()}>sm</button></li>
                        {links.map((v,i)=>{
-                           return  <li key={i}><Link href={`/${v.href}`}><div className='links'><div className='icons'>
-                               {v.icons}</div><span className={isShow && "components" || "d-none"}>{v.components}</span></div></Link></li>
+                           return  <li key={i}><Slide  delay={i*50}><Link href={`/${v.href}`}><div className='links'><div className='icons'>
+                           {v.icons}</div><span className={isShow && "components" || "d-none"}>{v.components}</span></div></Link></Slide></li>
                        })}
                     </ul>
                    </div>

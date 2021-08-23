@@ -11,7 +11,8 @@ const Cards = () => {
             <h1  className='text-center p-1 mt-3'>Card owners</h1>
             <h3  className='text-center mb-5'>Here you can read card owners and their cards</h3>
 
-            <div className="row mt-3">
+           <div className="container ">
+           <div className="row mt-3 me-2">
                            {cards.map((v,i)=>{
                                return  <div className="col-lg-4 col-md-6 col-sm-12 p-1 d-flex justify-content-center" key={i}>
                                    <div className={`plastik_card m-2 ${v.classColor}`}>
@@ -43,6 +44,7 @@ const Cards = () => {
                                </div>
                            })}
             </div>
+           </div>
             
         </PagesW>
     )

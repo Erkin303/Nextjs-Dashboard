@@ -44,8 +44,8 @@ const All = ({children}) => {
                    <p className='dashboardWord'>Dashboards</p>
                    <div className='cloudCash'><img src="./Vector.png" alt="" /><span className='cc ms-1'>cloudcash</span></div>
                    <div className='sideBar'>
+                       <div  className='d-flex justify-content-center'><button className='btn btn-light' onClick={()=>Changing()}>sm</button></div>
                    <ul>
-                       <li className='d-flex justify-content-center'><button className='btn btn-light' onClick={()=>Changing()}>sm</button></li>
                        {links.map((v,i)=>{
                            return  <li key={i}><Slide  delay={i*50}><Link href={`/${v.href}`}><div className='links'><div className='icons'>
                            {v.icons}</div><span className={isShow && "components" || "d-none"}>{v.components}</span></div></Link></Slide></li>
